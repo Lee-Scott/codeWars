@@ -9,7 +9,7 @@ public class Calc {
             return 0;
         }
 
-        Stack<Double> stack = new Stack<Double>();
+        Stack<Double> stack = new Stack<>();
         String[] exp = s.split(" ");
 
         for (String singleExp: exp) {
