@@ -12,6 +12,7 @@ public class Vowels {
                 }
             }
 
+
         }
         return vowelsCount;
     }
