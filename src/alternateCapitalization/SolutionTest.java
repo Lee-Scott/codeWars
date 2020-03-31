@@ -1,8 +1,8 @@
-package AlternateCapitalization;
+package alternateCapitalization;
 
 import org.junit.Test;
+
 import static org.junit.Assert.assertArrayEquals;
-import org.junit.runners.JUnit4;
 
 public class SolutionTest{
     @Test

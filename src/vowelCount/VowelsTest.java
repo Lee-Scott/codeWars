@@ -1,5 +1,7 @@
-package VowelCount;
+package vowelCount;
+
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 public class VowelsTest {

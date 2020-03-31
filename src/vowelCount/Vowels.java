@@ -1,4 +1,4 @@
-package VowelCount;
+package vowelCount;
 public class Vowels {
 
     public static int getCount(String str) {

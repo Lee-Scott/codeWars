@@ -1,4 +1,4 @@
-package AlternateCapitalization;
+package alternateCapitalization;
 
 public class Solution {
     public static String[] capitalize(String s) {
