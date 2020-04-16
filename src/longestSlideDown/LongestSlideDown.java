@@ -25,26 +25,37 @@ have a few centuries to waste. You must come up with something more clever than 
 
 /*
 
-        Starts from the leafs and moves up so
-                 5
-              4     7
-            15   4    8
+ Starting from the leafs the tree colapses untill we reach [0][0]
+   3
+  7 4
+ 2 4 6
+8 5 9 3
 
-            Goes to:
+Goes to:
+    3
+   7 4
+ 10 13 12
 
-                5
-             19   15
+Goes to:
+     3
+   20 17
+
+Goes to:
+    23
 
  */
 
 public class LongestSlideDown {
     public static int longestSlideDown(int[][] pyramid) {
 
-        for(int x =  pyramid.length - 2; x >= 0; x--){
-            for(int y = pyramid[x].length - 1; y >= 0; y--){
+        for(int x =  pyramid.length - 2; x >= 0; x--){ // for each column. at
+            for(int y = pyramid[x].length - 1; y >= 0; y--){ // for each row
+
+                // finds the bigger leaf and adds it to the tree
                 pyramid[x][y] += Math.max(pyramid[x + 1][y], pyramid[x + 1][y + 1]);
             }
         }
+        //[0][0] we have fully traversed the tree
         return pyramid[0][0];
     }
 }
