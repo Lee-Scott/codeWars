@@ -4,6 +4,7 @@ class Node {
     int value;
     Node left;
     Node right;
+    Node root;
 
     Node(int value) {
         this.value = value;
