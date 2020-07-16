@@ -1,4 +1,4 @@
-package theMillonthFibonacci;
+package theMillointhFibonacci;
 
 import java.math.BigInteger;
 import org.junit.Test;
