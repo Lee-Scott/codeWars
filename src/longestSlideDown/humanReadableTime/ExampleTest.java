@@ -1,4 +1,4 @@
-package humanReadableTime;
+package longestSlideDown.humanReadableTime;
 
 import org.junit.Test;
 
